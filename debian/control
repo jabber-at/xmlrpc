@@ -1,0 +1,18 @@
+Source: erlang-xmlrpc
+Priority: optional
+Maintainer: Philipp Huebner <debalance@debian.org>
+Build-Depends: debhelper (>= 9), dh-rebar
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://github.com/rds13/xmlrpc
+
+
+Package: erlang-xmlrpc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
+         ${erlang:Depends}
+Description: HTTP 1.1 compliant XML-RPC library for Erlang
+ This is an HTTP 1.1 compliant XML-RPC library for Erlang. It is
+ designed to make it easy to write XML-RPC Erlang clients and/or
+ servers. The library is compliant with the XML-RPC specification
+ published by http://www.xmlrpc.org/.

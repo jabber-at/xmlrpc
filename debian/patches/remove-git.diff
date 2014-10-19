@@ -1,0 +1,20 @@
+Description: remove fetching version from git
+ This patch fixes an FTBFS (#745583). Without it
+ rebar would try to fetch the latest tag from git
+ and use it for the vsn field.
+ Now the vsn field is the same as in xmlrpc.pub.
+Author: Philipp Huebner <debalance@debian.org>
+
+Index: erlang-xmlrpc/src/xmlrpc.app.src
+===================================================================
+--- erlang-xmlrpc.orig/src/xmlrpc.app.src	2014-04-23 09:00:26.000000000 +0200
++++ erlang-xmlrpc/src/xmlrpc.app.src	2014-04-23 09:04:20.359478303 +0200
+@@ -1,7 +1,7 @@
+ {application, xmlrpc,
+  [
+   {description, ""},
+-  {vsn, git},
++  {vsn,{1, 14}},
+   {registered, []},
+   {applications, []},
+   {env, []}
