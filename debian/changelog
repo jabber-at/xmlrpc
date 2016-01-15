@@ -3,6 +3,7 @@ erlang-xmlrpc (1.15-0.1) unstable; urgency=medium
   * New upstream release.
   * Take over this package.
   * Use new upstream-tag format to make use of upstream tags.
+  * Remove remove-git.diff (no longer needed).
 
  -- Mathias Ertl <mati@jabber.at>  Fri, 15 Jan 2016 23:37:44 +0100
 
