@@ -5,6 +5,7 @@ erlang-xmlrpc (1.15-0.1) unstable; urgency=medium
   * Use new upstream-tag format to make use of upstream tags.
   * Remove remove-git.diff (no longer needed).
   * Fix BSD-2-clause shortname in debian/copyright.
+  * Add erlang-syntax-tools to build dependencies.
 
  -- Mathias Ertl <mati@jabber.at>  Fri, 15 Jan 2016 23:37:44 +0100
 
