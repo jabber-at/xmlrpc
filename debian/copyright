@@ -5,7 +5,7 @@ Source: https://github.com/rds13/xmlrpc
 Files: *
 Copyright: 2003 Joakim Grebenö <jocke@gleipnir.com>
            2009-2014 Romuald du Song <rdusong@gmail.com>
-License: BSD 2-Clause
+License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
