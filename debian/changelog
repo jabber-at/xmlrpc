@@ -1,3 +1,9 @@
+erlang-xmlrpc (1.15-0.1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Mathias Ertl <mati@jabber.at>  Fri, 15 Jan 2016 23:37:44 +0100
+
 erlang-xmlrpc (0.2014.03.17-2) unstable; urgency=medium
 
   * Drop git from build-depends and add patch to fix FTBFS (Closes: #745583)
