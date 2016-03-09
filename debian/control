@@ -5,7 +5,7 @@ XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
 Build-Depends: debhelper (>= 9), dh-rebar, erlang-eunit, erlang-syntax-tools
 Standards-Version: 3.9.5
 Section: libs
-Homepage: https://github.com/rds13/xmlrpc
+Homepage: https://github.com/processone/p1_xmlrpc
 
 
 Package: erlang-xmlrpc
