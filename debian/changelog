@@ -3,6 +3,7 @@ erlang-xmlrpc (1.15.1-0.1) unstable; urgency=medium
   * This package now uses the p1 fork from
     https://github.com/processone/p1_xmlrpc, in line with what ejabberd uses.
   * Fix section and homepage in debian/control and debian/copyright.
+  * Add VCS-* URLs.
 
  -- Mathias Ertl <mati@jabber.at>  Wed, 09 Mar 2016 17:45:18 +0100
 
